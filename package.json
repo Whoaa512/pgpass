@@ -1,6 +1,6 @@
 {
-  "name": "pgpass",
-  "version": "0.0.3",
+  "name": "@whoaa/pgpass",
+  "version": "1.0.0",
   "description": "Module for reading .pgpass",
   "main": "lib/index",
   "scripts": {
@@ -30,9 +30,9 @@
     "password",
     "postgresql"
   ],
-  "bugs": "https://github.com/hoegaarden/pgpass/issues",
+  "bugs": "https://github.com/whoaa512/pgpass/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hoegaarden/pgpass.git"
+    "url": "https://github.com/whoaa512/pgpass.git"
   }
 }

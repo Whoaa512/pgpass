@@ -1,16 +1,17 @@
 # pgpass
+> Module for reading .pgpass
 
-[![Build Status](https://travis-ci.org/hoegaarden/pgpass.png?branch=master)](https://travis-ci.org/hoegaarden/pgpass)
+[![Build Status](https://travis-ci.org/whoaa512/pgpass.png?branch=master)](https://travis-ci.org/whoaa512/pgpass)
 
 ## Install
 
 ```sh
-npm install pgpass
+npm install @whoaa/pgpass --save
 ```
 
 ## Usage
 ```js
-var pgPass = require('pgpass');
+var pgPass = require('@whoaa/pgpass');
 
 var connInfo = {
   'host' : 'pgserver' ,
@@ -58,7 +59,7 @@ If you find Bugs or have improvments, please feel free to open a issue on github
 
 ## Links
 
-- https://github.com/hoegaarden/node-pgpass
+- https://github.com/whoaa512/node-pgpass
 - http://www.postgresql.org/docs/current/static/libpq-pgpass.html
 - https://wiki.postgresql.org/wiki/Pgpass
 - https://github.com/postgres/postgres/blob/master/src/interfaces/libpq/fe-connect.c

@@ -1,6 +1,7 @@
 {
   "name": "@whoaa/pgpass",
   "version": "1.0.0",
+  "private": false,
   "description": "Module for reading .pgpass",
   "main": "lib/index",
   "scripts": {
